@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>W4Bot - ChatBot</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="https://i.postimg.cc/vB2vDw9x/W4Bot.png" />
+</head>
+<body>
+
+  <div class="chat-container">
+
+    <!-- === EN-TÊTE === -->
+    <header class="chat-header">
+      <div class="logo-text">
+        <img src="https://i.postimg.cc/vB2vDw9x/W4Bot.png" alt="W4Bot Logo" class="logo" />
+        <h1>W4Bot</h1>
+      </div>
+    </header>
+
+    <!-- === ZONE DE DISCUSSION === -->
+    <div class="chat-box" id="chat-box"></div>
+
+    <!-- === ZONE DE SAISIE === -->
+    <form class="chat-input" id="chat-form">
+      <input type="text" id="user-input" placeholder="Écris un message..." autocomplete="off" required />
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <!-- === PIED DE PAGE === -->
+    <footer class="chat-footer">
+      🔧 W4Bot v0.3.1 — développé avec ❤️ par W4Pulse
+    </footer>
+
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
